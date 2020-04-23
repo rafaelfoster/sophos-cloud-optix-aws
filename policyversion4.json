@@ -1,0 +1,12 @@
+{
+    "Version": "2012-10-17",
+    "Statement": {
+        "Effect": "Allow",
+        "Action": "iam:Get*",
+        "Resource": "*",
+        "Condition": {
+            "DateGreaterThan": {"aws:CurrentTime": "2020-03-01T00:00:00Z"},
+            "DateLessThan": {"aws:CurrentTime": "2020-07-31T23:59:59Z"}
+        }
+    }
+}
