@@ -1204,7 +1204,7 @@
             ]
           }
         },
-        "Runtime": "nodejs8.10",
+        "Runtime": "nodejs12.x",
         "VpcConfig": {
           "SecurityGroupIds": [
             {
